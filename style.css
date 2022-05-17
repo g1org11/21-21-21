@@ -1,0 +1,27 @@
+#enter-messenger-from {
+  padding: 20px;
+}
+#enter-messenger-from.hide {
+  display: none;
+}
+.messenger-wrapper {
+  display: none;
+  justify-content: flex-start;
+  width: 100%;
+}
+.messenger-wrapper.visible {
+  display: flex;
+}
+.active-users {
+  width: 200px;
+}
+
+.messenger-body {
+  width: 100%;
+}
+.messages {
+  margin-bottom: 20px;
+}
+.messages .message-item {
+  padding: 10px;
+}
